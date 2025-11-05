@@ -1,0 +1,12 @@
+.newTaskButton {
+    background-color: #303030;
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.newTaskButton:active {
+    background-color: #222222;
+}

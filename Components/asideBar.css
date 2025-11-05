@@ -1,0 +1,7 @@
+.asideBar {
+    background-color: #181818;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 24px 32px;
+}

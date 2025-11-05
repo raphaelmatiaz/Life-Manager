@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2F2F2F;
+    display: flex;
+}
+
+main {
+    flex: 3;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Jacques Francois";
+    font-size: 1.8rem;
+    color: #FFF;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Inter';
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 48px 0 16px 0;
+}

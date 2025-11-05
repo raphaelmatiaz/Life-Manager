@@ -1,0 +1,6 @@
+.logo-div-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
