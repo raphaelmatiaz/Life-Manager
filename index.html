@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./Components/logoDivWrapper.css">
     <link rel="stylesheet" href="./Components/newTaskButton.css">
     <link rel="stylesheet" href="./Components/searchBar.css">
+    <link rel="stylesheet" href="./Components/taskInstance.css">
+    <link rel="stylesheet" href="./Components/taskList.css">
+    <link rel="stylesheet" href="./Components/crudForm.css">
 
     <!-- Google font import "Jaques Francois" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,9 +37,41 @@
         <button class="newTaskButton">+ NEW TASK</button>
         <h2>Ongoing Tasks</h2>
         <input class="searchBar" type="search" placeholder="Search...">
+        
+        <ul class="taskList">
+            
+            <!-- <li>
+                <div class="taskInstance">
+                    <p>New Task</p>
+                    <div class="flex-row-wrapper">
+                        <img class="crud-button-icon" src="./media/edit-task.svg" alt="Edit Task Pictogram">
+                        <img class="crud-button-icon" src="./media/delete-task.svg" alt="Delete Task Pictogram">
+                    </div>
+                </div>
+            </li> -->
+            
+            <p class="no-tasks-message">You've got nothing to do <br> at the moment.</p>
+
+        </ul>
     </aside>
     <main>
+        <div id="new-task-form" class="crud-form">
+            <h3>
+                New Task
+            </h3>
+            <input id="input-task-name" type="text" placeholder="Task Name">
 
+            <div class="flex-row-wrapper space-around">
+                <select type="text" placeholder="Category">
+                    <option value="work">work</option>
+                    <option value="sport">sport</option>
+                    <option value="relationships">relationships</option>
+                    <option value="bad-habit-fixing">bad habit fixing</option>
+                </select>
+                <input type="datetime-local" placeholder="Deadline">
+                <input type="number" min="1" max="10" placeholder="Priority">
+            </div>
+        </div>
     </main>
 </body>
 </html>

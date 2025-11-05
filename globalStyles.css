@@ -11,13 +11,17 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #2F2F2F;
+    background-color: #212121;
     display: flex;
+    font-family: 'Inter';
 }
 
 main {
     flex: 3;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -33,4 +37,30 @@ h2 {
     font-size: 1.8rem;
     font-weight: 300;
     margin: 48px 0 16px 0;
+}
+
+h3 {
+    font-family: "Jacques Francois";
+    font-size: 6.4rem;
+    color: #FFF;
+    font-weight: 100;
+}
+
+
+/* GLOBAL CLASSES */
+
+.flex-row-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+    width: 100%;
 }
