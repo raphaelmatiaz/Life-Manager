@@ -1,0 +1,12 @@
+.formSubmitButton {
+    background-color: #dddddd;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.formSubmitButton:active {
+    background-color: #d1d1d1;
+}

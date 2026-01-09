@@ -1,0 +1,12 @@
+.select-dropdown {
+    background-color: #303030;
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.select-dropdown:active {
+    background-color: #222222;
+}
